@@ -1,0 +1,27 @@
+## GERENCIADOR DE POMAR SIMPLES
+Este projeto visa "administrar" com inserção e exibição de dados de um POMAR
+
+## Virtualenv
+Utilizar o comando pip3 -r requirements.txt para instalar dependencias do projeto
+
+## Rodar o programa
+python3 run db init
+python3 run db migrate
+python3 run db upgrade
+python3 run runserver
+
+pagina: localhost:5000
+
+## Para testar
+python3 test_run.py e va ate localhost:5000
+
+## Promessas
+- [x] Criar comunicacao com o banco sqlite
+- [x] Insercao de dados via rest api
+- [x] Exibicao de relatorio na home
+- [] Filtro de relatorio
+- [] Testes unitarios
+
+## Consideracoes Finais
+Este foi o meu primeiro projeto utilizando Flask e SQLAlchemy, focando numa aplicacao REST API.
+Ainda esta incompleto, porem penso iniciar novos projetos mais avançados com essa base.
